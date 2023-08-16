@@ -43,4 +43,11 @@ Dilakukan handle outlier dengan z-score.
 - Membuat pengelompokan berdasarkan jenis divisi pekerjaan yaitu divisi_data, divisi_engineering, divisi_product.
 - Menggabungkan feature pekerjaan dan alasan resign.
 - Melakukan feature encoding pada feature StatusPernikahan, JenisKelamin, StatusKepegawaian, JenjangKarir, PerformancePegawai, TingkatPendidikan, Resign dan Pekerjaan_AlasanResign.
-#### Model Training 
+### Model Training 
+#### Imbalanced Learning 
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/a9286250-f358-4aa7-ad98-019be7eddcd9) 
+- Digunakan imbalanced learning oversampling smote untuk menyeimbangkan jumlah target. 
+#### Machine Learning 
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/3ee15cc4-9b45-41ec-ab62-639a289b8e7d)
+- Dilakukan modeling menggunakan 6 machine learning untuk mendapatkan hasil terbaik yaitu decision tree, logistic regression, knn, adaboost, xgboost dan random forest. Dihasilkan score masing-masing ML score pada tabel di atas. 
+

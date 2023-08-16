@@ -25,7 +25,22 @@ Pada tahap ini dilakukan analisis tentang divisi pekerjaan apa yang paling renta
 ![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/d412584c-88f5-4f55-93fb-82817e0c646f)
 - Jumlah karyawan resign paling banyak berada pada divisi Data Analyst dengan jenjang karir fresh graduate.
 - Berbagai macam performa karyawan dan alasan resign memiliki jumlah porsi yang sama dalam hal karyawan melakukan resign, namun jumlah tertinggi berada pada performa karyawan bagus dan alasan resign toxic culture.
-- Perusahaan dapat melakukan perubahan budaya kerja pada seluruh jajaran baik pimpinan dan karyawan agar tidak terjadi toxic culture.
+- Perusahaan dapat melakukan perbaikan dengan merubahan budaya kerja pada seluruh jajaran baik pimpinan maupun karyawan agar tidak terjadi toxic culture.
 
 ## 4. Build an Automated Resignation Behavior Prediction using Machine Learning
-
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/01b53cda-bdf7-4cf0-a9c1-637a1dfaf9a7)
+### Data Preprocessing
+#### Handle Missing Value
+Terdapat missing value pada kolom TingkatPendidikan, TanggalResign, TanggalResign_tahun. Dilakukan action mengisi missing value dengan nilai mode.
+#### Handle Duplicated Data
+Tidak ada data duplikat.
+#### Handle Outlier
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/18059c02-6094-4dfb-a362-20e4d53b79e1)
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/c6d83647-23e8-4a42-93ae-d27515017ead)
+Dilakukan handle outlier dengan z-score.
+#### Feature Engineering
+- Membuat feature baru yaitu Resign yang nantinya akan berfungsi sebagai target.
+- Membuat pengelompokan berdasarkan jenis divisi pekerjaan yaitu divisi_data, divisi_engineering, divisi_product.
+- Menggabungkan feature pekerjaan dan alasan resign.
+- Melakukan feature encoding pada feature StatusPernikahan, JenisKelamin, StatusKepegawaian, JenjangKarir, PerformancePegawai, TingkatPendidikan, Resign dan Pekerjaan_AlasanResign.
+#### Model Training 

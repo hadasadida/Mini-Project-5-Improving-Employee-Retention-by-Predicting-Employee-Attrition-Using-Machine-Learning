@@ -11,4 +11,21 @@ Tahap awal yang harus dilakukan adalah mempersiapkan data mentah menjadi data ya
 - Pada feature PernahBekerja memiliki unique value : '1, yes' kemudian dilakukan action me-replace value 'yes' menjadi 1.
 ### Membuang Data yang Tidak Diperlukan
 - Pada dataset, feature yang memiliki 1 unique value (konstanta) adalah feature PernahBekerja. Sehingga dilakukan action drop feature PernahBekerja.
-  
+
+## 2. Annual Report on Employee Number Changes
+Pada tahap ini dilakukan analisis perkembangan jumlah karyawan di perusahaan setiap tahunnya sehingga didapatkan kondisi perusahaan terkini apakah dalam keadaan yang sehat atau mengkhawatirkan.
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/31b616a8-9c91-46c6-a8c8-1a515163d3e3)
+- Jumlah hiring karyawan menurun setiap tahun.
+- Jumlah karyawan resign paling tinggi terjadi pada tahun 2017.
+- Jumlah karyawan resign sempat turun di tahun 2014 - 2015, namun mengalami kenaikan paling tinggi di tahun 2017.
+- Kondisi perusahaan berada pada tahap yang mengkhawatirkan.
+
+## 3. Resign Reason Analysis for Employee Attrition Management Strategy
+Pada tahap ini dilakukan analisis tentang divisi pekerjaan apa yang paling rentan untuk resign serta alasan resign seperti apa yang bisa di handle oleh perusahaan demi kepentingan perbaikan management.
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/d412584c-88f5-4f55-93fb-82817e0c646f)
+- Jumlah karyawan resign paling banyak berada pada divisi Data Analyst dengan jenjang karir fresh graduate.
+- Berbagai macam performa karyawan dan alasan resign memiliki jumlah porsi yang sama dalam hal karyawan melakukan resign, namun jumlah tertinggi berada pada performa karyawan bagus dan alasan resign toxic culture.
+- Perusahaan dapat melakukan perubahan budaya kerja pada seluruh jajaran baik pimpinan dan karyawan agar tidak terjadi toxic culture.
+
+## 4. Build an Automated Resignation Behavior Prediction using Machine Learning
+

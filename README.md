@@ -56,7 +56,8 @@ Dilakukan handle outlier dengan z-score.
 ![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/f96bafec-f411-4457-9537-19e8109b6f88)
 
 #### Shap Value
-![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/5709caa1-48f9-40b2-b642-984173f30308)
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/ebf94579-34cc-4001-8348-e0f7e9fac7f4)
+
 
 - Fitur jenjang karir merupakan fitur paling penting dalam menentukan karyawan berpeluang untuk resign atau tidak.
 - Semakin besar jumlah ketidakhadiran karyawan, semakin besar karyawan berpeluang untuk resign.

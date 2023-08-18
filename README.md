@@ -47,8 +47,20 @@ Dilakukan handle outlier dengan z-score.
 #### Imbalanced Learning 
 ![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/a9286250-f358-4aa7-ad98-019be7eddcd9) 
 - Digunakan imbalanced learning oversampling smote untuk menyeimbangkan jumlah target. 
-#### Machine Learning 
-![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/3ee15cc4-9b45-41ec-ab62-639a289b8e7d)
+#### Machine Learning  
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/d43b4a39-49d5-4015-9d31-fe28b356d219)
 - Dilakukan modeling menggunakan 6 machine learning untuk mendapatkan hasil terbaik yaitu decision tree, logistic regression, knn, adaboost, xgboost dan random forest. Dihasilkan score masing-masing ML score setelah dilakukan hyperparameter tuning pada tabel di atas.
-- Dipilih model Xgboost karena menghasilkan score ROC-AUC paling baik. 
+- Dipilih model Xgboost karena menghasilkan score ROC-AUC paling baik.
+  
+#### Feature Importance 
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/f96bafec-f411-4457-9537-19e8109b6f88)
 
+#### Shap Value
+![image](https://github.com/hadasadida/Mini-Project-5-Improving-Employee-Retention-by-Predicting-Employee-Attrition-Using-Machine-Learning/assets/124650679/5709caa1-48f9-40b2-b642-984173f30308)
+
+- Fitur jenjang karir merupakan fitur paling penting dalam menentukan karyawan berpeluang untuk resign atau tidak.
+- Semakin besar jumlah ketidakhadiran karyawan, semakin besar karyawan berpeluang untuk resign.
+- Semakin bagus performance karyawan, semakin besar karyawan berpeluang untuk resign.
+- Semakin tinggi tingkat pendidikan karyawan, semakin besar karyawan berpeluang untuk resign.
+- Semakin rendah skor kepuasan pegawai, semakin besar karyawan berpeluang untuk resign.
+  
